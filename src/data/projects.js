@@ -3,31 +3,38 @@
       "projects": [
         {
           "id": 1,
-          "name": "Calculator"
+          "name": "Calculator",
+          "icon": "fas fa-calculator"
         },
         {
             "id": 2,
-            "name": "TicTacToe"
+            "name": "TicTacToe",
+            "icon":"fas fa-times fa-circle"
           },
           {
             "id": 3,
-            "name": "Weather"
+            "name": "Weather",
+            "icon":"fas fa-cloud"
           },
           {
             "id": 4,
-            "name": "Youtube"
+            "name": "Youtube",
+            "icon":"fab fa-youtube"
           },
           {
             "id": 5,
-            "name": "Image Search"
+            "name": "Image Search",
+            "icon":"far fa-image"
           },
           {
             "id": 6,
-            "name": "Cards"
+            "name": "Cards",
+            "icon":"fas fa-address-card"
           },
           {
             "id": 7,
-            "name": "Season Display"
+            "name": "Season Display",
+            "icon":"fas fa-wind"
           }
       ]
     }
