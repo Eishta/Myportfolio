@@ -2,7 +2,7 @@
   "name": "newproj",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Eishta.github.io/portfolio",
+  "homepage": "http://Eishta.github.io/Myportfolio",
   "dependencies": {
     "axios": "^0.18.1",
     "font-awesome": "^4.7.0",

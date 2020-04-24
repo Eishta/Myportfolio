@@ -1,0 +1,83 @@
+.square {
+    background: #776c68;
+    border: 1px solid #bd5d38;
+    float: left;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 80px;
+    line-height: 80px;
+    height: 80px;
+    border-radius: 10px;
+    
+   }
+   .square:active {
+     
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, rgb(230, 166, 93)),
+        color-stop(1, rgb(218, 134, 38))
+    );
+   }
+   .reset{
+    background-color: #bd5d38;
+    text-align: center;
+   font-size: xx-large;
+   margin: 5px;
+   color: white;
+   border-radius: 10px ;
+   height: fit-content;
+   }
+   .game-board {
+    display: grid;
+    border: #bd5d38 solid 1px;
+    width: 600px;
+    height: 30rem;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+   /* Board */
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+   }
+   .header{
+     background-color: #bd5d38;
+     text-align: center;
+    font-size: xxx-large;
+    margin: 5px;
+    height: fit-content;
+    color: white;
+    border-radius: 10px ;
+   }
+   .winner{
+    background-color: #bd5d38;
+    text-align: center;
+   margin: 5px;
+   height: fit-content;
+   color: white;
+   border-radius: 10px ;  
+   }
+   /* Game */
+  .game {
+    margin: 0 auto;  
+   }
+   /* Game Info */
+  ul {
+    padding-left: 30px;
+   }
+   .game-info {
+    margin-left: 20px;
+   }
+   .status {
+    margin-bottom: 10px;
+   }
+   
+  

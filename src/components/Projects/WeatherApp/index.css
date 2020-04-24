@@ -1,0 +1,51 @@
+
+   .weather-board {
+    border: #bd5d38 solid 1px;
+    width: 600px;
+    height: 30rem;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+   .header{
+     background-color: #bd5d38;
+     text-align: center;
+    font-size: xxx-large;
+    margin: 5px;
+    height: fit-content;
+    color: white;
+    border-radius: 10px ;
+   }
+   .weather{
+ margin-top: 40px;
+   }
+   /* Game */
+  .search {
+    margin: 0 auto;  
+    height: fit-content;
+    display: flex;
+   }
+   .search input{
+     margin-left: auto;
+   }
+   .search button {
+     margin-right: auto;
+    background-color: #bd5d38;
+    text-align: center;
+   /* font-size: xx-large; */
+   /* margin: 5px; */
+   color: white;
+   border-radius: 10px ;
+   }
+   /* Game Info */
+  ul {
+    padding-left: 30px;
+   }
+   .game-info {
+    margin-left: 20px;
+   }
+   .status {
+    margin-bottom: 10px;
+   }
+   
+  

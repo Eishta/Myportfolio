@@ -1,53 +1,34 @@
 import React, { Component } from 'react';
 import './App.css';
-// import Sidebar from './portfolio/sidebar'
-// import Introduction from './portfolio/introduction'
-// import About from './portfolio/about'
-// import Timeline from './portfolio/timeline'
 
 import { BrowserRouter as Router, Route, Redirect, Switch } from "react-router-dom"
-import AboutMe from './components/AboutMe'
-import Projects from './components/Projects/Projects'
-import Project from './components/Projects/Project/Project'
+
+import About from './components/about'
+import Navbar from './components/NavBar'
+import Experience from "./components/experiene";
+import Education from "./components/education";
+import Skills from "./components/skills";
+
+import Projects from "./components/projects";
+import Project from "./components/Project"
+
+
 
 const App =() =>{
-  const pages = [
-    {
-      pageLink: '/',
-      view: AboutMe,
-      displayName: 'Home'
-    },
-    {
-      pageLink: '/projects',
-      view: Projects,
-      displayName: 'Demographics'
-    }];
  
     return (
     <React.Fragment> 
-      
-      
       <Router>
-      <Route
-          render={({location}) => (
-            <div>
-              <Switch location={location}>
-                {pages.map((page, index) => {
-                  return (
-                    <Route
-                      exact
-                      path={page.pageLink}
-                      component={page.view}
-                      key={index}
-                    />
-                  );
-                })}
+      <Navbar/>
+              <Switch> 
+                <Route path='/' exact component={About} />
+                <Route path='/experience' component={Experience} />
+                <Route path='/education' component={Education} />
+                <Route path='/skills' component={Skills} />
+                <Route path='/projects' exact component={Projects} />
                 <Route path='/projects/:id' component={Project} />
                 <Redirect to="/" />
               </Switch>
-            </div>
-          )}
-        />
 
       </Router>
       
