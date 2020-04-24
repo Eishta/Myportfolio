@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[21],{37:function(e,a,t){"use strict";t.r(a);var n=t(0),c=t.n(n);a.default=function(e){return c.a.createElement("div",{className:"ui card"},c.a.createElement("div",{className:"content"},e.children),c.a.createElement("div",{className:"extra content"},c.a.createElement("div",{className:"ui two buttons"},c.a.createElement("div",{className:"ui basic green button"},"Approve"),c.a.createElement("div",{className:"ui basic red button"},"Reject"))))}}}]);
+//# sourceMappingURL=21.3f6b5f2c.chunk.js.map
