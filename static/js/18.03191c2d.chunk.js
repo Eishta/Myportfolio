@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[18],{37:function(e,a,s){"use strict";s.r(a);var t=s(0),i=s.n(t),n=function(e){return i.a.createElement("div",{className:"ui active dimmer"},i.a.createElement("div",{className:"ui big text loader"},e.message))};n.defaultProps={message:"Loading..."},a.default=n}}]);
+//# sourceMappingURL=18.03191c2d.chunk.js.map
