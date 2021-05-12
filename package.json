@@ -6,7 +6,7 @@
   "dependencies": {
     "axios": "^0.18.1",
     "font-awesome": "^4.7.0",
-    "mathjs": "^6.6.4",
+    "mathjs": "^7.5.1",
     "moment": "^2.24.0",
     "react": "^16.8.6",
     "react-autocomplete": "^1.8.1",
